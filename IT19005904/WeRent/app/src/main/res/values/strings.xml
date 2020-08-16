@@ -1,0 +1,13 @@
+<resources>
+    
+    <string name="app_name">WeRent_App</string>
+    <string name="name_view_txt">Name</string>
+    <string name="email_view_txt">Email</string>
+    <string name="nic_view_txt">NIC Number</string>
+    <string name="mobile_view_txt">Mobile Number</string>
+    <string name="user_view_txt">User Name</string>
+    <string name="password_view_txt">Password</string>
+    <string name="confirm_view_txt">Confirm Password</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="sign_button">Sign-Up</string>
+</resources>
