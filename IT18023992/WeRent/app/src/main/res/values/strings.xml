@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">We Rent</string>
+    <string name="F_Name">First Name</string>
+    <string name="L_Name">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone Number</string>
+    <string name="Item">Item</string>
+    <string name="Qty">QTY</string>
+    <string name="Price">Price</string>
+    <string name="Credit_crd">Credit Card</string>
+    <string name="Debit_crd">Debit Card</string>
+    <string name="Cash_On_Delivery">Cash On Delivery</string>
+    <string name="Visa">VISA card</string>
+</resources>
