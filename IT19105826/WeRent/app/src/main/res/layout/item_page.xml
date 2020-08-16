@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="403dp"
+        android:layout_height="725dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="367dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginBottom="-20dp"
+            android:src="@drawable/logo" />
+
+        <View
+            android:layout_width="167dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="118dp"
+            android:background="#FFFFFF" />
+
+        <TableLayout
+            android:layout_width="353dp"
+            android:layout_height="247dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/view_shape">
+
+
+            <TableRow
+                android:layout_width="267dp"
+                android:layout_height="44dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="341dp"
+                    android:layout_height="249dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/house_96px" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="391dp"
+            android:layout_height="198dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="Item Name :"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="House for rent"
+                    android:textAlignment="center"
+                    android:textColor="#C3ADAD"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="54dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60dp"
+                    android:fontFamily="@font/allerta"
+                    android:text="Description :"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-85dp"
+                    android:layout_marginTop="-5dp"
+                    android:text="2 Rooms | 1 Bathroom | Near to SLIIT"
+                    android:textAlignment="center"
+                    android:textColor="#C3ADAD"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="Rate per month :"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 7500"
+                    android:textAlignment="center"
+                    android:textColor="#C3ADAD"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="Availability :"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available"
+                    android:textAlignment="center"
+                    android:textColor="#C3ADAD"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="Location :"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Malabe"
+                    android:textAlignment="center"
+                    android:textColor="#C3ADAD"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="Contact No :"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+                />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0713609523"
+                    android:textAlignment="center"
+                    android:textColor="#C3ADAD"
+                    android:textSize="18sp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/rounded_btn2"
+                    android:text="Reviews" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/rounded_btn2"
+                    android:text="Add to cart" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_btn2"
+                    android:text="Buy Now" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

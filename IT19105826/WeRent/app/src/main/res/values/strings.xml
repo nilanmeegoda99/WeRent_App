@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">WeRent</string>
+    <string name="search_view_txt">Search Anything</string>
+    <string name="property_btn">"        Properties"</string>
+    <string name="vehicle_btn">"          Motor Vehicles"</string>
+    <string name="Motorbike_btn">"          Motor Bikes"</string>
+    <string name="Mobile_btn">Mobiles</string>
+    <string name="Electronics_btn">"     Electronics"</string>
+    <string name="Book_btn">Books</string>
+    <string name="Services_btn">"    Services"</string>
+    <string name="Other_btn">Others</string>
+    <string name="Home_bottombar_msg">"Do you need to rent and earn money or want something to buy !!!"</string>
+    <string name="buy_btn">Buy Now</string>
+    <string name="rent_btn">Rent Now</string>
+
+    <string-array name="item_cat">
+        <item>Properties </item>
+        <item>Motor Vehicles</item>
+        <item>Motor Bikes</item>
+        <item>Electronics</item>
+        <item>Books</item>
+        <item>Services</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="areas">
+
+        <item> Ampara </item>
+        <item> Anuradhapura</item>
+        <item> Badulla</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Galle</item>
+        <item> Gampaha</item>
+        <item> Hambantota</item>
+        <item>Jaffna</item>
+        <item> Kalutara</item>
+        <item> Kandy</item>
+        <item>  Kegalle</item>
+        <item> Kilinochchi</item>
+        <item> Kurunegala</item>
+        <item> Mannar</item>
+        <item> Matale</item>
+        <item>Matara</item>
+        <item> Moneragala</item>
+        <item> Mullaitivu</item>
+        <item>Nuwara Eliya</item>
+        <item> Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item> Trincomalee</item>
+        <item> Vavuniya</item>
+
+    </string-array>
+
+
+
+
+</resources>
